@@ -6,6 +6,7 @@ import { FetchData } from './components/FetchData';
 import { Counter } from './components/Counter';
 import Header from './components/Layout/Header';
 import './custom.css';
+import Meals from './components/Meals/Meals';
 
 export default class App extends Component {
     static displayName = App.name;
@@ -14,6 +15,9 @@ export default class App extends Component {
         return (
             <>
                 <Header />
+                <main>
+                    <Meals/>
+                    </main>
             </>
         );
     }

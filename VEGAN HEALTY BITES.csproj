@@ -22,9 +22,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="ClientApp\src\components\Cart\" />
-    <Folder Include="ClientApp\src\components\Meals\" />
-    <Folder Include="ClientApp\src\components\UI\" />
     <Folder Include="ClientApp\src\assets\" />
   </ItemGroup>
 
