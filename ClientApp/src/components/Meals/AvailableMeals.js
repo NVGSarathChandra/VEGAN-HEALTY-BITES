@@ -6,20 +6,20 @@ import MealItem from './MealItem/MealItem';
 const MealsList = [
     {
         id: 'm1',
-        name: 'Sushi',
-        description: 'Finest fish and veggies',
+        name: 'Crispy Corn',
+        description: 'Fried Corn with spring onions',
         price: 22.99,
     },
     {
         id: 'm2',
-        name: 'Schnitzel',
-        description: 'A german specialty!',
+        name: 'Aloo Poori Chaat',
+        description: 'Topped with chana dal and onions',
         price: 16.5,
     },
     {
         id: 'm3',
-        name: 'Barbecue Burger',
-        description: 'American, raw, meaty',
+        name: 'Paneer tikka',
+        description: 'Marinated paneer with spiced yogurt',
         price: 12.99,
     },
     {

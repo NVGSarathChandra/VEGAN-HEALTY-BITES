@@ -20,28 +20,36 @@
   text-align: right;
 }
 
-.actions button {
-  font: inherit;
-  cursor: pointer;
-  background-color: transparent;
-  border: 1px solid #8a2b06;
-  padding: 0.5rem 2rem;
-  border-radius: 25px;
-  margin-left: 1rem;
-}
+    .actions button {
+        font: inherit;
+        cursor: pointer;
+        background-color: transparent;
+        border: 1px solid #026937;
+        padding: 0.5rem 2rem;
+        border-radius: 25px;
+        margin-left: 1rem;
+    }
 
-.actions button:hover,
-.actions button:active {
-  background-color: #5a1a01;
-  border-color: #5a1a01;
-  color: white;
-}
+        .actions button:hover,
+        .actions button:active {
+            -webkit-transform: scale(1.1);
+            background-color: #026937;
+            border-color: #026937;
+            color: white;
+        }
 
-.actions .button--alt {
-  color: #8a2b06;
-}
+    .actions .button--alt {
+        color: #026937;
+    }
 
-.actions .button {
-  background-color: #8a2b06;
-  color: white;
-}
+    .actions .button {
+        background-color: #026937;
+        color: white;
+    }
+    .actions .button--alt:hover{
+        outline:none
+    }
+
+    .actions .button:focus{
+        outline:none
+    }
