@@ -35,7 +35,7 @@ const AvailableMeals = () => {
         <Card>
             <ul>
                 {MealsList.map(item => {
-                    return <MealItem key={item.id} name={item.name} description={item.description} price={item.price} />
+                    return <MealItem key={item.id} id={item.id} name={item.name} description={item.description} price={item.price} />
                 })}
             </ul>
         </Card>
