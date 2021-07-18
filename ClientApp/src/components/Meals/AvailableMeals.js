@@ -8,25 +8,25 @@ const MealsList = [
         id: 'm1',
         name: 'Crispy Corn',
         description: 'Fried Corn with spring onions',
-        price: 22.99,
+        price: 107.50,
     },
     {
         id: 'm2',
         name: 'Aloo Poori Chaat',
         description: 'Topped with chana dal and onions',
-        price: 16.5,
+        price: 40.50,
     },
     {
         id: 'm3',
         name: 'Paneer tikka',
         description: 'Marinated paneer with spiced yogurt',
-        price: 12.99,
+        price: 79.00,
     },
     {
         id: 'm4',
         name: 'Green Bowl',
         description: 'Healthy...and green...',
-        price: 18.99,
+        price: 55.00,
     },
 ];
 
